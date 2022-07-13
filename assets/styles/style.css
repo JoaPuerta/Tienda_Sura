@@ -1,0 +1,28 @@
+.banner {
+    background-image: url("../img/fotobanner.jfif");
+    padding: 10% 30% 45% 2%;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.fuente{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'The Nautigal', cursive;
+    color: white;
+}
